@@ -1,10 +1,10 @@
 body {
     background-color: #b9b9b9;
+    font-family: "Open Sans";
 }
 
-#header {
+#page-header {
     text-align: center;
-    font-family: "Open Sans";
     background-color: #005092;
     color: white;
 }
@@ -24,3 +24,36 @@ h3 {
     border-bottom: 10px solid black;
     padding-top: 10px;
 }
+
+#today {
+    width: 40%;
+    margin: auto;
+    padding: 40px 0 0 0;
+}
+
+.scheduler-styling {
+    display: flex;
+    background-color: #dddddd;
+}
+
+.time {
+    flex: .10 1 0;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.todo {
+    flex: .70 1 0;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+.save-button {
+    flex: .20 1 0;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+
