@@ -1,0 +1,26 @@
+body {
+    background-color: #b9b9b9;
+}
+
+#header {
+    text-align: center;
+    font-family: "Open Sans";
+    background-color: #005092;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+}
+
+h3 {
+    font-size: 25px;
+    padding: 10px 0 10px 0;
+}
+
+#solid-line {
+    border-bottom: 10px solid black;
+    padding-top: 10px;
+}
