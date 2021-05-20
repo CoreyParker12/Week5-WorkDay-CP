@@ -47,14 +47,20 @@ h3 {
 }
 
 .todo {
-    flex: .70 1 0;
+    flex: .75 1 0;
     background-color: #005092;
     font-size: 20px;
-    padding: 42px 10px 42px 10px;
+    padding: 36px 10px 36px 10px;
+    outline: none;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-left: solid black;
+    border-bottom: solid black;
 }
 
 .save-button {
-    flex: .20 1 0;
+    flex: .15 1 0;
+    padding: 42px 10px 42px 10px;
 }
 
 .past {

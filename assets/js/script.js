@@ -9,11 +9,11 @@ todayDate.append(momentDate);
 
 // Get current hours
 
-let timeZ = new Date().getHours();
+//let timeZ = new Date().getHours();
 
 // Test setting the time while building this after hours
 
-// let timeZ = 12;
+ let timeZ = 12;
 
 // Hours array
 
@@ -36,9 +36,6 @@ $('.todo').each(function(i) {
 }
 
 changeColors();
-
-
-
 
 // Function to save text to local storage
 
