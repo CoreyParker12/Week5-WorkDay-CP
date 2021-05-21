@@ -1,3 +1,8 @@
+// REFERENCES
+// 1. https://api.jquery.com/attr/
+// 2. https://api.jquery.com/siblings/#siblings-selector
+// 3. https://api.jquery.com/val/#val
+
 // Grab date to put at top of page
 
 let todayDate = $('#todayDate');
@@ -11,7 +16,7 @@ todayDate.append(momentDate);
 
 //let timeZ = new Date().getHours();
 
-// Test setting the time while building this after hours
+// Used for testing times outside daily hours
 
  let timeZ = 12;
 
@@ -39,6 +44,16 @@ changeColors();
 
 // Function to save text to local storage
 
+// REFERENCES
+// 1, 2, and 3
+
+$('.save-button').on('click', function() {
+
+    let saveTime = $(this).siblings('.todo').attr('id');
+    let saveTodo = $(this).siblings('.todo').val();
+    localStorage.setItem(saveTime, saveTodo);
+
+});
 
 
 
