@@ -11,5 +11,6 @@ My biggest struggles/achievements were:
 
 4. I'm really happy with this project overall as I'm starting to feel more confident being able to write less code to perform the same function.
 
+Link to live program: https://coreyparker12.github.io/Week5-WorkDay-CP/
 
 ![Home page for password generator](./assets/images/work-day.JPG)
