@@ -38,7 +38,7 @@ function changeColors() {
         } else if (allHours[i] === thisHour) {
             $(this).addClass('current');
         } else {
-            $(this).addClass('future')
+            $(this).addClass('future');
         }
     });
 
